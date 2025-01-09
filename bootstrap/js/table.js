@@ -1,0 +1,1 @@
+var tabel = $('.table').DataTable()

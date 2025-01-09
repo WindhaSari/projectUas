@@ -1,0 +1,197 @@
+.card-img-top {
+    width: 100%; /* Mengubah lebar ukuran gambar 100% pada gambar di card */
+    height: 200px; /* Mengatur tinggi tetap untuk gambar */
+    object-fit: cover; /* Memastikan gambar menutupi dimensi yang diberikan tanpa meregang */
+}
+.panel-body {
+    flex-grow: 1; /* Membuat panel-body tumbuh untuk mengisi ruang yang tersedia */
+}
+.panel-footer {
+    text-align: center; /* Mengatur tombol di tengah */
+}
+
+/* card produk */
+body {
+    background-color: #1a1a1a; /* Mengubah warna background halaman */
+    color: #fff; /* Mengubah warna font */
+}
+.card {
+    display: flex; /* Mengubah posisi gambar di card menjadi fleksibel */
+    flex-direction: column; /* Mengatur flex card menjadi kolom */
+    justify-content: space-between; /* Mengatur jarak antar card */
+    height: 100%; /* Mengatur tinggi card 100% */
+    margin-bottom: 20px; /* Mengatur margin bawah card */
+}
+.card-body {
+    flex-grow: 1; /* Membuat card-body tumbuh untuk mengisi ruang yang tersedia */
+}
+.card img {
+    max-height: 200px; /* Mengatur tinggi maksimum gambar */
+    object-fit: cover; /* Memastikan gambar menutupi dimensi yang diberikan tanpa meregang */
+    border-top-left-radius: 5px; /* Mengatur radius sudut kiri atas gambar */
+    border-top-right-radius: 5px; /* Mengatur radius sudut kanan atas gambar */
+}
+.btn-custom {
+    background-color: #d4af37; /* Mengatur warna background tombol custom */
+    color: #1a1a1a; /* Mengatur warna font tombol custom */
+    border: none; /* Menghilangkan border tombol custom */
+    border-radius: 5px; /* Mengatur radius border tombol custom */
+    padding: 10px 20px; /* Mengatur padding tombol custom */
+    margin-top: 10px; /* Mengatur margin atas tombol custom */
+}
+.btn-custom:hover {
+    background-color: #b38e30; /* Mengatur warna background tombol custom saat di-hover */
+}
+/* about */
+.about-section {
+    padding: 50px 0; /* Mengatur padding atas dan bawah section about */
+}
+.about-title {
+    font-size: 2.5rem; /* Mengatur ukuran font title about */
+    font-weight: bold; /* Mengatur ketebalan font title about */
+    margin-bottom: 20px; /* Mengatur margin bawah title about */
+}
+.about-text {
+    font-size: 1.5rem; /* Mengatur ukuran font text about */
+    line-height: 1.6; /* Mengatur tinggi baris text about */
+    margin-bottom: 30px; /* Mengatur margin bawah text about */
+}
+.about-image {
+    width: 100%; /* Mengatur lebar gambar about 100% */
+    max-width: 400px; /* Mengatur lebar maksimum gambar about */
+    height: auto; /* Mengatur tinggi gambar about otomatis */
+    border-radius: 10px; /* Mengatur radius border gambar about */
+    display: block; /* Mengatur display gambar about menjadi block */
+    margin: 0 auto; /* Mengatur margin gambar about menjadi auto */
+}
+.testimonial {
+    background-color: #d4af37; /* Mengatur warna background testimonial */
+    color: #1a1a1a; /* Mengatur warna font testimonial */
+    padding: 20px; /* Mengatur padding testimonial */
+    border-radius: 10px; /* Mengatur radius border testimonial */
+    margin-top: 20px; /* Mengatur margin atas testimonial */
+}
+.testimonial img {
+    border-radius: 50%; /* Mengatur radius border gambar testimonial menjadi bulat */
+    margin-right: 15px; /* Mengatur margin kanan gambar testimonial */
+}
+.testimonial-text {
+    font-size: 1rem; /* Mengatur ukuran font text testimonial */
+    line-height: 1.6; /* Mengatur tinggi baris text testimonial */
+}
+.gambar {
+    height: 250px; /* Mengatur tinggi gambar */
+    width: 400px; /* Mengatur lebar gambar */
+}
+
+/* testimoni  */
+.testimonial {
+    background-color: #d4af37; /* Mengatur warna background testimonial */
+    color: #1a1a1a; /* Mengatur warna font testimonial */
+    padding: 20px; /* Mengatur padding testimonial */
+    border-radius: 10px; /* Mengatur radius border testimonial */
+    margin-top: 20px; /* Mengatur margin atas testimonial */
+}
+.testimonial img {
+    border-radius: 50%; /* Mengatur radius border gambar testimonial menjadi bulat */
+    margin-right: 15px; /* Mengatur margin kanan gambar testimonial */
+}
+.testimonial-text {
+    font-size: 1rem; /* Mengatur ukuran font text testimonial */
+    line-height: 1.6; /* Mengatur tinggi baris text testimonial */
+}
+
+/* footer  */
+.footer {
+    background-color: #333; /* Mengatur warna background footer */
+    color: #fff; /* Mengatur warna font footer */
+    padding: 40px 0; /* Mengatur padding atas dan bawah footer */
+    text-align: left; /* Mengatur teks footer rata kiri */
+}
+
+.footer h4 {
+    font-size: 18px; /* Mengatur ukuran font heading footer */
+    margin-bottom: 20px; /* Mengatur margin bawah heading footer */
+    color: #d4af37; /* Mengatur warna font heading footer */
+}
+
+.footer p {
+    font-size: 14px; /* Mengatur ukuran font paragraf footer */
+    line-height: 24px; /* Mengatur tinggi baris paragraf footer */
+    color: #ccc; /* Mengatur warna font paragraf footer */
+}
+
+.footer .social-icons {
+    list-style: none; /* Menghilangkan list style pada social icons */
+    padding: 0; /* Menghilangkan padding pada social icons */
+}
+
+.footer .social-icons li {
+    display: inline-block; /* Mengatur display social icons menjadi inline-block */
+    margin-right: 10px; /* Mengatur margin kanan social icons */
+}
+
+.footer .social-icons li a {
+    color: #d4af37; /* Mengatur warna font link social icons */
+    text-decoration: none; /* Menghilangkan dekorasi teks pada link social icons */
+    font-size: 18px; /* Mengatur ukuran font link social icons */
+}
+
+.footer .social-icons li a:hover {
+    color: #b38e30; /* Mengatur warna font link social icons saat di-hover */
+}
+
+.footer .container {
+    max-width: 1170px; /* Mengatur lebar maksimum container footer */
+    margin: 0 auto; /* Mengatur margin container footer menjadi auto */
+}
+
+.footer .row {
+    display: flex; /* Mengatur display row footer menjadi flex */
+    flex-wrap: wrap; /* Mengatur flex wrap row footer */
+}
+
+.footer .col-md-4 {
+    flex: 1; /* Mengatur flex grow col-md-4 footer */
+    min-width: 250px; /* Mengatur lebar minimum col-md-4 footer */
+    margin-bottom: 20px; /* Mengatur margin bawah col-md-4 footer */
+}
+
+/* styling pagination */
+.pagination {
+    display: flex; /* Mengatur display pagination menjadi flex */
+    justify-content: center; /* Mengatur pagination menjadi rata tengah */
+    padding: 20px 0; /* Mengatur padding atas dan bawah pagination */
+}
+
+.pagination li {
+    display: inline; /* Mengatur display item pagination menjadi inline */
+    margin: 0 5px; /* Mengatur margin item pagination */
+}
+
+.pagination li a {
+    color: #d4af37; /* Mengatur warna font link pagination */
+    background-color: #333; /* Mengatur warna background link pagination */
+    border: 1px solid #d4af37; /* Mengatur border link pagination */
+    padding: 10px 15px; /* Mengatur padding link pagination */
+    text-decoration: none; /* Menghilangkan dekorasi teks pada link pagination */
+    border-radius: 5px; /* Mengatur radius border link pagination */
+}
+
+.pagination li a:hover {
+    background-color: #b38e30; /* Mengatur warna background link pagination saat di-hover */
+    color: #fff; /* Mengatur warna font link pagination saat di-hover */
+}
+
+.pagination .active a {
+    background-color: #d4af37; /* Mengatur warna background link pagination aktif */
+    color: #333; /* Mengatur warna font link pagination aktif */
+    border: 1px solid #d4af37; /* Mengatur border link pagination aktif */
+}
+
+.pagination .disabled a {
+    color: #ccc; /* Mengatur warna font link pagination dinonaktifkan */
+    background-color: #333; /* Mengatur warna background link pagination dinonaktifkan */
+    border: 1px solid #ccc; /* Mengatur border link pagination dinonaktifkan */
+    cursor: not-allowed; /* Mengatur cursor link pagination dinonaktifkan */
+}
