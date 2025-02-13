@@ -12,7 +12,7 @@
 						<h2>SELAMAT DATANG ( <?php echo $_SESSION['username'];?> )</h2>
 						<p>ini adalah halaman admin 
 						<p><a class="btn btn-warning btn-lg" href="tampil-mahasiswa.php" role="button">Mahasiswa</a>
-						<a class="btn btn-danger btn-lg" href="tampil-user.php"role="button">User</a></p>
+						<a class="btn btn-primary btn-lg" href="tampil-user.php"role="button">User</a></p>
 				</div>
       </div>
 		</div>
