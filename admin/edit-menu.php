@@ -31,7 +31,7 @@ $row = $result->fetch_assoc();
                     <input type="file" name="gambar" class="form-control">
                     <img src="../images/<?php echo $row['gambar']; ?>" width="100">
                 </div>
-                <button type="submit" class="btn btn-primary">Update Produk</button>
+                <button type="submit" class="btn btn-info">Update Produk</button>
             </form>
         </div>
  
