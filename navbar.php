@@ -45,11 +45,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
 				<a href="contact.php">Contact</a>
 			</li>
 			</ul>
-			<form class="navbar-form navbar-left">
-			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Cari Menu">
-			</div>
-			<button type="submit" class="btn btn-default">Cari</button>
+			<form class="navbar-form navbar-left" action="menu.php" method="GET">
+				<div class="form-group">
+					<input type="text" name="search" class="form-control" placeholder="Cari Menu" value="<?php echo isset($_GET['search']) ? $_GET['search'] : ''; ?>">
+				</div>
+				<button type="submit" class="btn btn-default">Cari</button>
 			</form>
 			<ul class="nav navbar-nav navbar-right">
 			<li class="dropdown">
